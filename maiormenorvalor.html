@@ -1,0 +1,17 @@
+<script>
+    let vetorA = [];
+    let soma = 0;
+
+    for(let i=0; i<10; i++){
+        vetorA[i] = parseInt(prompt("Entre com o "+(i+1)+"º valor:"));
+    }
+
+    for(let i=0; i<10; i++){
+        soma = soma + vetorA[i];
+    }
+
+    let media = soma / 10;
+
+    document.write("Vetor A: "+vetorA+"<br>");
+    document.write("Média: "+media);
+</script>
